@@ -6,12 +6,16 @@ import products from '../products'
 
 const ProductScreen = ({ match }) => {
 
-    const products = products.find(p => p._id === match.params.id)
+    const product = products.find(p => p._id === match.params.id)
+
+
+
     return (
-        <div>
-            Product
-        </div>
+        <>
+            <Link className='btn btn-dark my-3' to="/">Go Back</Link>
+        </>
     )
+
 }
 
 export default ProductScreen
