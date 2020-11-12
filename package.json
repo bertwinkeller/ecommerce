@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "Mern Ecommerce",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertwinkeller/ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertwinkeller/ecommerce/issues"
+  },
+  "homepage": "https://github.com/bertwinkeller/ecommerce#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
